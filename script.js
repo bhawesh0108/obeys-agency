@@ -35,20 +35,17 @@ tl.to(".line h2",{
 })
 
 tl.to("#loader",{
-    opacity:0,
+    display:"none",
     delay:2.7,
-    duration:0.4
+    duration:0.3
 })
 
 tl.from("#page1",{
     y:800,
-    // duration:0.6,
+    duration:0.6,
+    delay:0.2,
     ease:Power4
 })
-tl.to("#loader",{
-    display:"none"
-})
-
 tl.from("#nav",{
     opacity:0,
     duration:0.3
